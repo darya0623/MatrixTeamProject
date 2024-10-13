@@ -1,0 +1,75 @@
+/* basic settings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+
+img,
+svg {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+ol,
+ul {
+    list-style-type: none;
+}
+
+a,
+span,
+label,
+input,
+button,
+b,
+i,
+textarea {
+    display: inline-block;
+    font-family: inherit;
+    font-weight: inherit;
+    text-decoration: none;
+}
+
+a,
+label,
+input,
+button,
+textarea {
+    cursor: pointer;
+}
+
+/* now let's do some styling ig */
+
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    background-color: #000;
+}
+
+.header {
+    margin-top: 30px;
+}
+
+.nav-list{
+    display: flex;
+    justify-content: space-around;
+    font-size: 32px;
+}
+
+.nav-item{
+    padding: 8px;
+      transition: all 0.5s;
+}
+
+.nav-item:hover {
+    background-color: aqua;
+    color: #000;
+    border-radius: 8px;
+    padding: 8px;
+
+}
